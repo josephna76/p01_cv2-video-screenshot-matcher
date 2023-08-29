@@ -2,10 +2,10 @@
 
 ## Setup
 
-- **Version:** Python 3.9.X
+- **Version:** Python 3.9.17
 - **Dependencies:**
-  - `pip install cv2==1.25.2`
-  - _(optional progress bar)_ `pip install tqdm==4.66.1`
+  - `pip install opencv-python`
+  - _(optional progress bar)_ `pip install tqdm`
   - `os & shutil: Used for file and directory operations.`
 
 ## Execution
