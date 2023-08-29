@@ -2,7 +2,7 @@
 
 ## Setup
 
-- **Version:** Python 3.9
+- **Version:** Python 3.9.X
 - **Dependencies:**
   - `pip install cv2==1.25.2`
   - _(optional progress bar)_ `pip install tqdm==4.66.1`
@@ -35,7 +35,6 @@ The code has undergone multiple iterations, each providing a different method of
 4. **4_progressbar.py**:
    - Same as `3_resizedmatching.py` but with an added progress bar for better UX during execution.
 
-## Notes
+## Conclusion
 
-- The method used here is focused on picking the best match from the available videos rather than simply using a fixed matching threshold.
-- This approach is optimized for accuracy and ensures that each screenshot finds a match. However, the trade-off is speed since the code must process every video entirely without any early exit condition.
+- This method currently picks the best match from the videos instead of using a matching threshold. This is optimized for accuracy and completeness but comes at the cost of requiring the code to traverse the entire set of videos with no early exit condition.
