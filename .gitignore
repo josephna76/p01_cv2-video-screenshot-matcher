@@ -1,0 +1,39 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg
+*.egg-info
+*.dist
+*.dist-info
+
+# Virtual environments
+venv/
+*.venv
+env/
+ENV/
+*.env
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDEs/Editors
+*.iml
+*.idea
+*.suo
+*.user
+*.vscode/
+
+# Directories specific to the project (add your project-specific directories/folders/files here)
+matches/
