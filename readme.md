@@ -16,7 +16,7 @@ Run the desired script with Python:
 
 ## Methodology
 
-The code has undergone multiple iterations, each providing a different method of template matching:
+The code has undergone multiple iterations that build upon each other up until the latest 4th iteration:
 
 1. **Threshold Matching (1_templatematching.py)**:
    - Basic implementation with a threshold of .95 to match.
