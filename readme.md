@@ -18,22 +18,16 @@ Run the desired script with Python:
 
 The code has undergone multiple iterations, each providing a different method of template matching:
 
-1. **1_templatematching.py**:
-   - The first iteration.
+1. **Threshold Matching (1_templatematching.py)**:
    - Basic implementation with a threshold of .95 to match.
-2. **2_bestmatching.py**:
-
-   - The second iteration.
+2. **Best Match Score (2_bestmatching.py)**:
    - Matches the highest score instead of relying on a fixed threshold.
    - Introduced the concept of storing matches in folders, not just in a text file.
-
-3. **3_resizedmatching.py**:
-
+3. **Resized Frame Matching (3_resizedmatching.py)**:
    - Resizes each frame of the video to match the screenshot resolution.
    - Uses the native `cv2` resize function. While it seems safe, there's potential for bugs.
-
-4. **4_progressbar.py**:
-   - Same as `3_resizedmatching.py` but with an added progress bar for better UX during execution.
+4. **Progress Bar Implementation (4_progressbar.py)**:
+   - Incorporates all the features from the Resized Frame Matching version but with an added progress bar for a better user experience.
 
 ## Conclusion
 
