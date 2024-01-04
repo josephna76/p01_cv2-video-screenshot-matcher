@@ -1,5 +1,7 @@
 # Quickstart
 
+This code can be run to best match photos to videos that may contain those photos.
+
 ## Setup
 
 - **Version:** Python 3.9.17
