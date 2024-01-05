@@ -1,6 +1,6 @@
 # Quickstart
 
-This code can be run to best match photos to videos that may contain those photos.
+This code can be run to best match photos to videos that may contain those photos. After executing the desired script, matches.txt will be updated with the photo and video matches.
 
 ## Setup
 
